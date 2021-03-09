@@ -1,1314 +1,338 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js one-page-layout" data-classic-layout="false" data-mobile-only-classic-layout="true" data-inAnimation="fadeInUp" data-outAnimation="fadeOutDownBig">
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en"> <!--<![endif]-->
+
 <head>
-    
-		<meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-        <meta name="description" content="cvCard - Responsive HTML5 vCard Template">
-        <meta name="keywords" content="vcard, html5, portfolio">
-        <meta name="author" content="Pixelwars">
+    <meta charset="utf-8" />
+    <title>Home | ukieCard</title>
+    <meta name="author" content="ukieweb" />
+    <meta name="keywords" content="ukieCard, css3, template, html5 template" />
+    <meta name="description" content="ukieCard - Personal Vcard & Resume HTML Template" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <!-- Font Awesome -->
+    <link type="text/css" media="all" href="assets/fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <!-- Libs CSS -->
+    <link type="text/css" media="all" href="assets/boostrap-files/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Animate CSS -->
+    <link type="text/css" media="all" href="assets/css/animate.css" rel="stylesheet" />
+    <!-- Template CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/component.css" />
+    <link type="text/css" media="all" href="assets/css/contact.form.css" rel="stylesheet" />
+    <link type="text/css" media="all" href="assets/css/style.css" rel="stylesheet" />
+    <!-- Switcher CSS -->
+    <link type="text/css" media="all" href="assets/css/switcher.css" rel="stylesheet" />
+    <link href="assets/css/colour-scheme/color-blue.css" rel="stylesheet" type="text/css" data-color="color-blue" media="all" id="stylesheet-new">
+    <!-- Responsive CSS -->
+    <link type="text/css" media="all" href="assets/css/respons.css" rel="stylesheet" />
+    <!-- Style Switcher -->
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/img/favicons/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/img/favicons/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/img/favicons/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon" href="assets/img/favicons/apple-touch-icon.png" />
+    <link rel="shortcut icon" href="assets/img/favicons/favicon.png" />
+    <!-- Google Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,100,100italic,200,200italic,300,300italic,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic' rel='stylesheet' type='text/css'>
 
-        <title>cvCard</title>
+</head>
+<body>
 
-        <!-- FAV and TOUCH ICONS -->
-        <link rel="shortcut icon" href="images/ico/favicon.ico">
-        <link rel="apple-touch-icon" href="images/ico/apple-touch-icon.png"/>
-		
-		<script src="js/modernizr.custom.js"></script>
-         
-        <!-- FONTS -->
-        <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
-        <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
-        <link href='http://fonts.googleapis.com/css?family=Tangerine:400,700' rel='stylesheet' type='text/css'>
-            
-        <!-- STYLES -->
-        <link rel="stylesheet" type="text/css" media="print" href="css/print.css">
-        <link rel="stylesheet" type="text/css" href="css/normalize.css">
-        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-        <link rel="stylesheet" type="text/css" href="js/nprogress/nprogress.css">
-        <link rel="stylesheet" type="text/css" href="css/animate.css">
-        <link rel="stylesheet" type="text/css" href="css/fonts/font-awesome/css/font-awesome.min.css">
-        <link rel="stylesheet" type="text/css" href="css/fonts/fontello/css/fontello.css">
-        <link rel="stylesheet" type="text/css" href="css/jquery.fancybox-1.3.4.css">
-        <link rel="stylesheet" type="text/css" href="js/google-code-prettify/prettify.css">
-        <link rel="stylesheet" type="text/css" href="css/uniform.default.css">
-        <link rel="stylesheet" type="text/css" href="css/flexslider.css">
-        <link rel="stylesheet" type="text/css" href="js/mediaelement/mediaelementplayer.css">
-        <link rel="stylesheet" type="text/css" href="css/tooltipster.css">
-        <link rel="stylesheet" type="text/css" href="css/style.css">
-        <link rel="stylesheet" type="text/css" href="css/main.css">
-        
-    <!--[if lte IE 9]>
-            <script src="js/html5shiv.js"></script>
-            <script src="js/respond.min.js"></script>
-            <script src="js/selectivizr-min.js"></script>
-        <![endif]--> 
+    <!-- Load page -->
+    <div class="animationload">
+        <div class="loader"></div>
+    </div>
+    <!-- End load page -->
 
-	</head>
-    
-    
-    
-	<body>
-    	
-        
-        
-        
-        <!-- CONTAINER -->
-	<div class="container" id="container">
-			
-            
-            
-            <!-- HEADER -->
-            <header class="header">
-            
-                <img src="images/site/Amandeep Singh.jpg" alt="Amandeep Singh">
-				<h1>Amandeep Singh</h1>
-                <p>Software Engineer</p>
-				
-                <!-- NAV MENU -->
-                <ul class="vs-nav">
-<li><a href="#/about">about me</a></li>
-                    <li><a href="#/portfolio">portfolio</a></li>
-                    <li><a href="#/contact">contact</a></li>
-                    <li><a href="#/blog">blog</a></li>
-                    <li><a href="#/resume">resume</a></li>
-                    
-                </ul>
-                <!-- NAV MENU -->
-                
-                <!-- SEARCH --> 
-                <div class="header-search">
-                    <form role="search" method="get" id="search-form" action="#">
-                      <input type="text" value="" name="s" id="search" placeholder="ENTER KEYWORD">
-                      <input type="submit" id="search-submit" title="Search" value="→">
+    <div id="wraper">
+
+        <!-- Start Home-header section -->
+        <section class="home-header border-bottom padding-block">
+            <!-- start container -->
+            <div class="container">
+                <!-- start row -->
+                <div class="row">
+                    <div class="col-xs-12 col-sm-5 col-lg-5 text-right">
+                        <!-- Your foto -->
+                        <div class="foto">
+                            <!-- for man -->
+                            <img src="./assets/img/photo.png" alt="Ukieweb">
+                            <!-- for women -->
+                            <!-- <img src="./assets/img/photo_female.png" alt="Ukieweb"> -->
+                        </div>
+                        <!-- end your foto -->
+                    </div>
+                    <div class="col-xs-12 col-sm-7 col-lg-7">
+                        <!-- Your Name -->
+                        <h1 class="title">Jonh Doe</h1>
+                        <!-- Your Profession -->
+                        <h3 class="sub-title">Web Designer & Mobile Application Developer</h3>
+                        <!-- social icon -->
+                        <div class="social">
+                            <ul class="animated" data-animation="fadeIn" data-animation-delay="600">
+                                <!-- social icons -->
+                                <li><a class="ukie-icons hover-animate" href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a class="ukie-icons hover-animate" href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a class="ukie-icons hover-animate" href="#"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a class="ukie-icons hover-animate" href="#"><i class="fa fa-google-plus"></i></a></li>
+                                <li><a class="ukie-icons hover-animate" href="#"><i class="fa fa-dribbble"></i></a></li>
+                                <li><a class="ukie-icons hover-animate" href="#"><i class="fa fa-youtube"></i></a></li>
+                                <!--
+                                    <li><a class="ukie-icons hover-animate" href="#"><i class="fa fa-behance"></i></a></li>
+                                    <li><a class="ukie-icons hover-animate" href="#"><i class="fa fa-pinterest"></i></a></li>
+                                    <li><a class="ukie-icons hover-animate" href="#"><i class="fa fa-digg"></i></a></li>
+                                    <li><a class="ukie-icons hover-animate" href="#"><i class="fa fa-deviantart"></i></a></li>
+                                    <li><a class="ukie-icons hover-animate" href="#"><i class="fa fa-envelope-square"></i></a></li>
+                                    <li><a class="ukie-icons hover-animate" href="#"><i class="fa fa-delicious"></i></a></li>
+                                    <li><a class="ukie-icons hover-animate" href="#"><i class="fa fa-instagram"></i></a></li>
+                                    <li><a class="ukie-icons hover-animate" href="#"><i class="fa fa-dropbox"></i></a></li>
+                                    <li><a class="ukie-icons hover-animate" href="#"><i class="fa fa-skype"></i></a></li>
+                                    <li><a class="ukie-icons hover-animate" href="#"><i class="fa fa-tumblr"></i></a></li>
+                                    <li><a class="ukie-icons hover-animate" href="#"><i class="fa fa-vimeo-square"></i></a></li>
+                                    <li><a class="ukie-icons hover-animate" href="#"><i class="fa fa-flickr"></i></a></li>
+                                    <li><a class="ukie-icons hover-animate" href="#"><i class="fa fa-github-alt"></i></a></li>
+                                    <li><a class="ukie-icons hover-animate" href="#"><i class="fa fa-renren"></i></a></li>
+                                    <li><a class="ukie-icons hover-animate" href="#"><i class="fa fa-vk"></i></a></li>
+                                    <li><a class="ukie-icons hover-animate" href="#"><i class="fa fa-xing"></i></a></li>
+                                    <li><a class="ukie-icons hover-animate" href="#"><i class="fa fa-weibo"></i></a></li>
+                                    <li><a class="ukie-icons hover-animate" href="#"><i class="fa fa-rss"></i></a></li>
+                                -->
+                            </ul>
+                        </div>
+                        <!-- end social icon -->
+                    </div>
+                </div>
+                <!-- end row -->
+            </div>
+            <!-- end container -->
+        </section>
+        <!-- End Home-header section -->
+
+        <!-- Start Menu section -->
+        <nav class="menu">
+            <!-- start container -->
+            <div class="container">
+                <!-- start row -->
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-lg-12">
+
+                        <!-- start menu block (profile) -->
+                        <a href="profile.html" class="menu-li">
+                            <!-- img menu block -->
+                            <span class="foto">
+                                <!-- for man -->
+                                <img src="./assets/img/menu/profile.png" class="menu-img" data-img-name="profile" alt="Ukieweb" />
+                                <!-- for women -->
+                                <!--  <img src="./assets/img/menu/profile_female.png" class="menu-img" data-img-name="profile_female" alt="Ukieweb" /> -->
+                            </span>
+                            <!-- name menu block -->
+                            <span class="name">Profile</span>
+                        </a>
+                        <!-- end menu block (profile) -->
+
+                        <!-- start menu block (resume) -->
+                        <a href="resume.html" class="menu-li">
+                            <!-- img menu block -->
+                            <span class="foto">
+                                <img src="./assets/img/menu/resume.png" class="menu-img" data-img-name="resume" alt="Ukieweb">
+                            </span>
+                            <!-- name menu block -->
+                            <span class="name">Resume</span>
+                        </a>
+                        <!-- end menu block (resume) -->
+
+                        <!-- start menu block (portfolio) -->
+                        <a href="portfolio.html" class="menu-li">
+                            <!-- img menu block -->
+                            <span class="foto">
+                                <img src="./assets/img/menu/portfolio.png" class="menu-img" data-img-name="portfolio" alt="Ukieweb">
+                            </span>
+                            <!-- name menu block -->
+                            <span class="name">Portfolio</span>
+                        </a>
+                        <!-- end menu block (portfolio) -->
+
+                        <!-- start menu block (blog) -->
+                        <a href="blog.html" class="menu-li">
+                            <!-- img menu block -->
+                            <span class="foto">
+                                <img src="./assets/img/menu/blog.png" class="menu-img" data-img-name="blog" alt="Ukieweb">
+                            </span>
+                            <!-- name menu block -->
+                            <span class="name">Blog</span>
+                        </a>
+                        <!-- end menu block (portfolio) -->
+
+                        <!-- start menu block (contact) -->
+                        <a href="contact.html" class="menu-li">
+                            <!-- img menu block -->
+                            <span class="foto">
+                                <img src="./assets/img/menu/contact.png" class="menu-img" data-img-name="contact" alt="Ukieweb">
+                            </span>
+                            <!-- name menu block -->
+                            <span class="name">Contact</span>
+                        </a>
+                        <!-- end menu block (contact) -->
+                    </div>
+                </div>
+                <!-- end row -->
+            </div>
+            <!-- end container -->
+        </nav>
+        <!-- End Menu section -->
+
+        <!-- Start Footer section -->
+        <footer class="footer">
+            <!-- start container -->
+            <div class="container">
+                <!-- start row -->
+                <div class="row">
+                    <!-- start phone number -->
+                    <div class="col-xs-12 col-sm-6 col-lg-3">
+                        <a href="#" class="hover-animate">
+                            <span class="ukie-icons hover-animate"><i class="fa fa-phone"></i></span> +38 012-3456-7890
+                        </a>
+                    </div>
+                    <!-- end phone number -->
+                    <!-- start email -->
+                    <div class="col-xs-12 col-sm-6 col-lg-3">
+                        <a href="#" class="hover-animate">
+                            <span class="ukie-icons hover-animate"><i class="fa fa-paper-plane"></i></span> info@yourdomain.com
+                        </a>
+                    </div>
+                    <!-- end email -->
+                    <!-- start address -->
+                    <div class="col-xs-12 col-sm-6 col-lg-3">
+                        <a href="#" class="hover-animate">
+                            <span class="ukie-icons hover-animate"><i class="fa fa-map-marker"></i></span> 44 King St, Melbourne VIC
+                        </a>
+                    </div>
+                    <!-- end address -->
+                    <!-- start Copyright -->
+                    <div class="col-xs-12 col-sm-6 col-lg-3 text-right">
+                        <span class="copyright">Copyright © 2016 All right reserved</span>
+                    </div>
+                    <!-- end Copyright -->
+                </div>
+                <!-- end row -->
+            </div>
+            <!-- end container -->
+        </footer>
+        <!-- End Footer section -->
+
+    </div>
+
+    <!-- Scroll to Top -->
+    <a href="#" class="btn hover-animate scrollToTop"><i class="fa fa-angle-up"></i></a>
+    <!-- End Scroll to Top -->
+
+    <!-- Style Switcher -->
+    <!-- delete this from site once you have decided on a colour scheme - follow documentation for insructions -->
+    <div class="style-switcher style-off">
+
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-lg-12 text-center">
+
+                    <div class="switch-colours clearfix">
+                        <div class="set clearfix">
+
+                            <h3 class="lighter">Select A Color</h3>
+
+                            <a href="color-blue" class="new-colour color-blue" id="color-blue" data-color="#00b6f9"></a>
+                            <a href="color-orange" class="new-colour color-orange" id="color-orange" data-color="#ffc400"></a>
+                            <a href="color-purple" class="new-colour color-purple" id="color-purple" data-color="#7c4dff"></a>
+                            <a href="color-green" class="new-colour color-green" id="color-green" data-color="#9ccc65"></a>
+                            <a href="color-red" class="new-colour color-red" id="color-red" data-color="#ff7043"></a>
+                            <a href="color-brown" class="new-colour color-brown" id="color-brown" data-color="#ae8c64"></a>
+
+                            <h3 class="lighter">Select A Background</h3>
+                            <a href="bg-white" class="new-bg bg-white" data-bg="#ffffff"></a>
+                            <a href="bg-grey" class="new-bg bg-grey" data-bg="#f5f5f5"></a>
+                            <a href="bg-light-blue" class="new-bg bg-light-blue" data-bg="#cfd8dc"></a>
+                            <a href="bg-dark-blue" class="new-bg bg-dark-blue" data-bg="#263238"></a>
+                            <a href="bg-dark-purple" class="new-bg bg-dark-purple" data-bg="#1e1f38"></a>
+                            <a href="bg-brown" class="new-bg bg-brown" data-bg="#383231"></a>
+
+                            <h3 class="lighter">Select A Shadow</h3>
+
+                                <div class="switch">
+                                    <input type="checkbox" name="box_shadow" id="box_shadow">
+                                    <label><i></i></label>
+                                </div>
+
+
+
+                        </div>
+                        <!-- end set -->
+                    </div>
+
+                    <div class="style-open">
+                        <i class="fa fa-tint"></i>
+                    </div>
+                    <!-- end style-open -->
+
+                </div>
+            </div>
+            <!-- end row -->
+
+
+    </div>
+    <!-- end Style Switcher -->
+
+    <!-- Style Contact Form -->
+    <!-- delete this from site once you have decided on a colour scheme - follow documentation for insructions -->
+    <!-- Button Style open -->
+    <div class="style-open-form animated hi-icon-effect-8">
+        <i class="hi-icon fa fa-envelope-o ukie-icons hover-animate hi-icon-mobile"></i>
+    </div>
+    <!-- End Button Style open -->
+    <div class="style-contact-form style-off-form">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-lg-12 ">
+                <!-- Start Contact Form -->
+                <div class="contact-form">
+                    <div class="btn-close-form">
+                    </div>
+                    <h3 class="title title-contact">Contact Me</h3>
+                    <p>Use this form to tell me about your project goals and needs. I will be in touch within 24 hours.</p>
+                    <form action="assets/php/contact.php" id="contact-form-panel" method="post">
+                        <input type="text" id="user-name-panel" name="user-name" value="" placeholder="Name" />
+                        <input type="email" id="user-email-panel" name="user-email" value="" placeholder="Email" />
+                        <input type="hidden" id="user-status-panel" name="user-status" value="1"  />
+                        <textarea id="user-message-panel" name="user-message" placeholder="Message"></textarea>
+                        <div class="footer-form">
+                            <input type="submit" id="submit-btn-panel" class="btn btn-color hover-animate"  value="Send Message" />
+                            <div class="info-message-form">
+                                <p>Please fill out all the fields!</p>
+                                <span class="close-msg"><i class="fa fa-close"></i></span>
+                            </div>
+                        </div>
                     </form>
                 </div>
-                <!-- SEARCH -->
-                
-			</header>
-            <!-- HEADER -->
-            
-            
-            
-            
-            
-            <!-- WRAPPER -->
-			<div class="wrapper"> <!-- PAGE : ABOUT -->
-				<section id="about" class="page">
-					<div class="content">
-                    
-                    
-                       
-                    
-                    	
-                        <!-- row -->
-                        <div class="row">
-                        	
-                            <!-- column 8/12 -->
-                        	<div class="col-md-8">
-                            	
-                                <h2 class="section-title"><span><i class="icon-guest"></i>A LITTLE ABOUT ME</span></h2>
-                                
-                                <!-- intro -->
-                                <div class="intro">
+                <!-- End Contact Form -->
+                <!-- End style-open -->
+            </div>
+        </div>
+        <!-- End row -->
+    </div>
+    <!-- End Style Contact Form -->
 
-                        	
-                                    <h2>
+<!-- Scripts -->
+<script src="assets/js/jquery-1.11.2.min.js" type="text/javascript"></script>
+<script src="assets/boostrap-files/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="assets/js/jquery.appear.js" type="text/javascript"></script>
+<script src="assets/js/jquery.mixitup.min.js" type="text/javascript"></script>
+<script src="assets/js/owl.carousel.min.js" type="text/javascript"></script>
+<script src="assets/js/jquery.flexslider-min.js" type="text/javascript"></script>
+<script src="assets/js/jquery.inview.min.js" type="text/javascript"></script>
+<script src="assets/js/jquery.knob.min.js" type="text/javascript"></script>
+<script src="assets/js/jquery.cookie.js" type="text/javascript"></script>
+<script src="assets/js/jquery.ratyli.js" type="text/javascript"></script>
+<script src="assets/js/modernizr.custom.js" type="text/javascript"></script>
+<script src="assets/js/contact_scripts.js" type="text/javascript"></script>
+<script src="assets/js/scripts.js" type="text/javascript"></script>
 
-                                        <strong>Certified Python Software Developer</strong>
-                                     offering <strong>3 years</strong> of extensive
-                                      experience and exceptional
-                                       analytical and critical
-                                        thinking skills with
-                                         a pro-active approach,
-                                          great work ethic, 
-                                          and the important ability to function well in fast-paced
-                                           and deadline-driven team environments.
-
-                                        
-                                        Hello. I am
-                                    
-                                        <span class="rotate-words">
-                                            <span>an illustrator.</span>
-                                            <span>a writer.</span>
-                                            <span>a freelancer.</span>
-                                            <span>an inventor.</span>
-                                            <span>a wordpress fan.</span>
-                                            <span>a coffee lover.</span>
-                                        </span>
-                                        
-                                        <br> 
-                                        I live in a small town somewhere in the world. 
-                                        <br> 
-                                        I am passionated about <strong>minimalistic</strong> and flat design.
-                                        
-                                    </h2>
-                                      
-                                </div>
-                                <!-- intro -->
-                                
-                                
-                            </div>
-                            <!-- column 8/12 -->
-                        	
-                            
-                            <!-- column 4/12 -->
-                            <div class="col-md-4">
-                            
-                            	<h2 class="section-title"><span><i class="icon-twitter"></i>LATEST TWEETS</span></h2>	
-                            	
-                                <div id="latest-tweets" class="widget-twitter" data-twitter-name="pixelwarsdesign" data-tweet-count="1" data-include-retweets="false"></div>
-                                
-                            </div>
-                            <!-- column 4/12 -->
-                            
-                            
-                        </div>
-                        <!-- row -->
-                        
-                        
-                        
-                        	      
-                                
-                        <h2 class="section-title"><span><i class="fa fa-magic"></i>SERVICES</span></h2>
-                                    
-                        <!-- SERVICES -->
-                        <div class="row">
-                            
-                            
-                            <div class="col-sm-6 col-md-3">
-                                
-                                <!-- service -->
-                                <div class="service color1">
-                                    <i class="fa fa-html5"></i>
-                                    <h4>Web Design</h4>
-                                    <p>I design super cool websites. It is a long established fact that a reader will be distracted by the readable content. </p>
-                                </div>
-                                <!-- service -->
-                                
-                            </div>
-                            
-                            <div class="col-sm-6 col-md-3">
-                                
-                                <!-- service -->
-                                <div class="service color2">
-                                    <i class="fa fa-font"></i>
-                                    <h4>Type Design</h4>
-                                    <p>I can design beautiful type faces for both digital and print media. It is a long established fact that a reader will be distracted. </p>
-                                </div>
-                                <!-- service -->
-                                
-                            </div>
-                            
-                            <div class="col-sm-6 col-md-3">
-                                
-                                <!-- service -->
-                                <div class="service color3">
-                                    <i class="icon-smashmag"></i>
-                                    <h4>Blog Writer</h4>
-                                    <p>I write about web design. It is a long established fact that a reader will be distracted by the readable content. </p>
-                                </div>
-                                <!-- service -->
-                                
-                            </div>
-                            
-                            <div class="col-sm-6 col-md-3">
-                                
-                                <!-- service -->
-                                <div class="service color4">
-                                    <i class="fa fa-rocket"></i>
-                                    <h4>Project Management</h4>
-                                    <p>I have strong project management skills. It is a long established fact that a reader will be distracted by the readable content. </p>
-                                </div>
-                                <!-- service -->
-                                
-                            </div>
-                            
-                        </div>
-                        <!-- SERVICES -->
-                        
-                        
-                        
-                        
-                        
-                        <h2 class="section-title"><span><i class="icon-layers-alt"></i>WORK PROCESS</span></h2>
-                        
-                        <!-- PROCESS -->
-                        <div class="row">
-                            
-                            
-                            <div class="col-xs-6 col-sm-4 col-md-2">
-                                
-                                <!-- process -->
-                                <div class="process">
-                                    
-                                    <div class="process-box">
-                                        <i class="icon-lamp"></i>
-                                        <h4>IDEA</h4>
-                                    </div>
-                                    
-                                </div>
-                                <!-- process -->
-                                
-                            </div>
-                            
-                            <div class="col-xs-6 col-sm-4 col-md-2">
-                                
-                                <!-- process -->
-                                <div class="process">
-                                    <div class="process-box">
-                                        <i class="fa fa-puzzle-piece"></i>
-                                        <h4>CONCEPT</h4>
-                                    </div>
-                                </div>
-                                <!-- process -->
-                                
-                            </div>
-                            
-                            <div class="col-xs-6 col-sm-4 col-md-2">
-                                
-                                <!-- process -->
-                                <div class="process">
-                                    
-                                    <div class="process-box">
-                                        <i class="icon-brush"></i>
-                                        <h4>DESIGN</h4>
-                                    </div>
-                                    
-                                </div>
-                                <!-- process -->
-                                
-                            </div>
-                            
-                            <div class="col-xs-6 col-sm-4 col-md-2">
-                                
-                                <!-- process -->
-                                <div class="process">
-                                    
-                                    <div class="process-box">
-                                        <i class="fa fa-cube"></i>
-                                        <h4>DEVELOP</h4>
-                                    </div>
-                                    
-                                </div>
-                                <!-- process -->
-                                
-                            </div>
-                            
-                            <div class="col-xs-6 col-sm-4 col-md-2">
-                                
-                                <!-- process -->
-                                <div class="process">
-                                    
-                                    <div class="process-box">
-                                        <i class="fa fa-bug"></i>
-                                        <h4>TEST</h4>
-                                    </div>
-                                    
-                                </div>
-                                <!-- process -->
-                                
-                            </div>
-                            
-                            <div class="col-xs-6 col-sm-4 col-md-2">
-                                
-                                <!-- process -->
-                                <div class="process">
-                                    
-                                    <div class="process-box">
-                                        <i class="fa fa-rocket"></i>
-                                        <h4>LAUNCH</h4>
-                                    </div>
-                                    
-                                </div>
-                                <!-- process -->
-                                
-                            </div>
-                            
-                        </div>
-                        <!-- PROCESS -->
-                        
-                        
-                        
-                        
-                        
-                        
-                        <h2 class="section-title"><span>FUN FACT</span></h2>
-                                    
-                        <!-- FUN FACT -->
-                        <div class="row">
-                            
-                            
-                            <div class="col-sm-6 col-md-3">
-                                
-                                <!-- fun-fact -->
-                                <div class="fun-fact">
-                                    <i class="icon-instagram-1"></i>
-                                    <h4>24000 SHOTS CAPTURED</h4>
-                                </div>
-                                <!-- fun-fact -->
-                                
-                            </div>
-                            
-                            <div class="col-sm-6 col-md-3">
-                                
-                                <!-- fun-fact -->
-                                <div class="fun-fact">
-                                    <i class="icon-jabber"></i>
-                                    <h4>37 PROJECTS COMPLETED</h4>
-                                </div>
-                                <!-- fun-fact -->
-                                
-                            </div>
-                            
-                            <div class="col-sm-6 col-md-3">
-                                
-                                <!-- fun-fact -->
-                                <div class="fun-fact">
-                                    <i class="icon-child"></i>
-                                    <h4>87 SATISFIED CUSTOMERS</h4>
-                                </div>
-                                <!-- fun-fact -->
-                                
-                            </div>
-                            
-                            <div class="col-sm-6 col-md-3">
-                                
-                                <!-- fun-fact -->
-                                <div class="fun-fact">
-                                    <i class="icon-bicycle"></i>
-                                    <h4>1450 KM CYCLED</h4>
-                                </div>
-                                <!-- fun-fact -->
-                                
-                            </div>
-                        
-                            
-                        </div>
-                        <!-- FUN FACT -->
-                        
-                        
-                        
-                        
-                        <h2 class="section-title"><span>CLIENTS</span></h2>
-                                    
-                        <!-- CLIENTS -->
-                        <div class="row">
-                            
-                            
-                            <div class="col-xs-6 col-sm-4 col-md-2">
-                                
-                                <!-- client -->
-                                <div class="client">
-                                    <a href="#">
-                                        <img src="images/clients/client-01.png" alt="client">
-                                    </a>
-                                </div>
-                                <!-- client -->
-                                
-                            </div>
-                            
-                            <div class="col-xs-6 col-sm-4 col-md-2">
-                                
-                                <!-- client -->
-                                <div class="client">
-                                    <a href="#">
-                                        <img src="images/clients/client-02.png" alt="client">
-                                    </a>
-                                </div>
-                                <!-- client -->
-                                
-                            </div>
-                            
-                            <div class="col-xs-6 col-sm-4 col-md-2">
-                                
-                                <!-- client -->
-                                <div class="client">
-                                    <a href="#">
-                                        <img src="images/clients/client-03.png" alt="client">
-                                    </a>
-                                </div>
-                                <!-- client -->
-                                
-                            </div>
-                            
-                            <div class="col-xs-6 col-sm-4 col-md-2">
-                                
-                                <!-- client -->
-                                <div class="client">
-                                    <a href="#">
-                                        <img src="images/clients/client-04.png" alt="client">
-                                    </a>
-                                </div>
-                                <!-- client -->
-                                
-                            </div>
-                            
-                            <div class="col-xs-6 col-sm-4 col-md-2">
-                                
-                                <!-- client -->
-                                <div class="client">
-                                    <a href="#">
-                                        <img src="images/clients/client-05.png" alt="client">
-                                    </a>
-                                </div>
-                                <!-- client -->
-                                
-                            </div>
-                            
-                            
-                            <div class="col-xs-6 col-sm-4 col-md-2">
-                                
-                                <!-- client -->
-                                <div class="client">
-                                    <a href="#">
-                                        <img src="images/clients/client-06.png" alt="client">
-                                    </a>
-                                </div>
-                                <!-- client -->
-                                
-                            </div>
-                            
-                        </div>
-                        <!-- CLIENTS -->
-                                
-                        
-					</div>
-				</section>
-                <!-- PAGE : ABOUT -->
-                
-                
-                
-                
-                <!-- PAGE : PORTFOLIO -->
-				<section id="portfolio" class="portfolio page">
-					<div class="content">
-                    
-                                     
-                        <h2 class="section-title center"><span><i class="icon-leaf"></i>MY WORKS</span></h2>
-                        
-                        <!--FILTERS-->
-                        <ul id="filters" class="filters">
-                          <li class="current"><a href="#" data-filter="*">ALL</a></li>
-                          <li><a href="#" data-filter=".design">DESIGN</a></li>
-                          <li><a href="#" data-filter=".coding">CODING</a></li>
-                          <li><a href="#" data-filter=".logo">LOGO</a></li>
-                        </ul>
-                        <!--FILTERS-->
-                    
-                    
-                    
-                        <!-- PORTFOLIO -->
-                        <div class="portfolio-items media-grid" data-layout="masonry">
-                          
-                          
-                          
-                          <!-- portfolio-item -->  
-                          <div class="media-cell design hentry">
-                            
-                            <div class="media-box">
-                                <img src="images/portfolio/01.png" alt="portfolio-post">
-                                <div class="mask"></div>
-                                <a href="portfolio-item-01.html" class="ajax"></a>
-                            </div>
-                            
-                            <div class="media-cell-desc">
-                                <h3>Personal Cv Project</h3>
-                                <p class="category">an illustration work</p>
-                            </div>
-                            
-                          </div>
-                          <!-- portfolio-item --> 
-                          
-                          
-                          <!-- portfolio-item -->  
-                          <div class="media-cell coding hentry">
-                          
-                            <div class="media-box">
-                                <img src="images/portfolio/02.png" alt="portfolio-post">
-                                <div class="mask"></div>
-                                <a href="portfolio-item-02.html" class="ajax"></a>
-                            </div>
-                            
-                            <div class="media-cell-desc">
-                                <h3>On The Desert</h3>
-                                <p class="category">an illustration work</p>
-                            </div>
-                            
-                          </div>
-                          <!-- portfolio-item --> 
-                          
-                          
-                          <!-- portfolio-item - lightbox video -->  
-                          <div class="media-cell coding video hentry">
-                            
-                            <div class="media-box">
-                                <img src="images/portfolio/03.png" alt="portfolio-post">
-                                <div class="mask"></div>
-                                <!-- lightbox - video --> 
-                                <a href="http://player.vimeo.com/video/79380715?title=0&amp;byline=0&amp;portrait=0&amp;color=009966" title="Paper by FiftyThree" data-lightbox-gallery="fancybox-item-03" class="lightbox iframe"></a>
-                                <!-- lightbox - video -->
-                            </div>
-                            
-                            <div class="media-cell-desc">
-                                <h3>Sleepy Games</h3>
-                                <p class="category">lightbox video</p>
-                            </div>
-                            
-                          </div>
-                          <!-- portfolio-item - lightbox video -->
-                          
-                          
-                          <!-- portfolio-item - lightbox image -->  
-                          <div class="media-cell design image hentry">
-                            <div class="media-box">
-                                <img src="images/portfolio/04.png" alt="portfolio-post">
-                                <div class="mask"></div>
-                                <!-- lightbox - image --> 
-                                <a href="images/portfolio/lightbox-01.jpg" title="an illustration by Vasili Tkach" data-lightbox-gallery="fancybox-item-01" class="lightbox"></a>
-                                <!-- lightbox - image -->
-                            </div>
-                            <div class="media-cell-desc">
-                                <h3>World War X</h3>
-                                <p class="category">ligthbox image</p>
-                            </div>
-
-                          </div>
-                          <!-- portfolio-item - lightbox image -->
-                          
-                          
-                          <!-- portfolio-item - lightbox soundcloud -->  
-                          <div class="media-cell coding audio hentry">
-                            <div class="media-box">
-                                <img src="images/portfolio/06.png" alt="portfolio-post">
-                                <div class="mask"></div>
-                                <!-- lightbox - soundcloud --> 
-                                <a href="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/129829419&amp;color=009966&amp;auto_play=false&amp;show_artwork=true" title="Soundcloud embed" data-lightbox-gallery="fancybox-item-04" class="lightbox iframe"></a>
-                                <!-- lightbox - soundcloud -->
-                            </div>
-                            <div class="media-cell-desc">
-                                <h3>Empty Battery</h3>
-                                <p class="category">lightbox soundcloud</p>
-                            </div>
-                          </div>
-                          <!-- portfolio-item - lightbox soundcloud -->
-                          
-                          
-                          <!-- portfolio-item - lightbox gallery -->
-                          <div class="media-cell logo image hentry">
-                            <div class="media-box">
-                                <img src="images/portfolio/07.png" alt="portfolio-post">
-                                <div class="mask"></div>
-                                <!-- lightbox - gallery -->
-                                <a href="images/portfolio/lightbox-02.jpg" data-lightbox-gallery="fancybox-item-02" class="lightbox" title="Octopus is dangerous!"></a>
-                                <a href="images/portfolio/lightbox-03.jpg" data-lightbox-gallery="fancybox-item-02" class="hidden lightbox"></a>
-                                <a href="images/portfolio/lightbox-04.jpg" data-lightbox-gallery="fancybox-item-02" class="hidden lightbox" title="Dog have dreams"></a>
-                                <!-- lightbox - gallery -->
-                            </div>
-                            <div class="media-cell-desc">
-                                <h3>Wizard Adventure</h3>
-                                <p class="category">lightbox gallery</p>
-                            </div>
-                          </div>
-                          <!-- portfolio-item - lightbox gallery -->
-                          
-                          
-                          <!-- portfolio-item - custom url -->  
-                          <div class="media-cell logo url hentry">
-                            <div class="media-box">
-                                <img src="images/portfolio/08.png" alt="portfolio-post">
-                                <div class="mask"></div>
-                                <a href="http://themeforest.net/user/pixelwars" target="_blank"></a>
-                            </div>
-                            <div class="media-cell-desc">
-                                <h3>Shinny Robot</h3>
-                                <p class="category">an illustration work</p>
-                            </div>
-                          </div>
-                          <!-- portfolio-item - custom url -->
-                          
-                          
-                          <!-- portfolio-item -->  
-                          <div class="media-cell coding hentry">
-                            <div class="media-box">
-                                <img src="images/portfolio/16.png" alt="portfolio-post">
-                                <div class="mask"></div>
-                                <a href="portfolio-item-03.html" class="ajax"></a>
-                            </div>
-                            <div class="media-cell-desc">
-                                <h3>Virus Protection</h3>
-                                <p class="category">an illustration work</p>
-                            </div>
-                          </div>
-                          <!-- portfolio-item --> 
-                          
-                          
-                          <!-- portfolio-item -->  
-                          <div class="media-cell design hentry">
-                            <div class="media-box">
-                                <img src="images/portfolio/14.png" alt="portfolio-post">
-                                <div class="mask"></div>
-                                <a href="portfolio-item-01.html" class="ajax"></a>
-                            </div>
-                            <div class="media-cell-desc">
-                                <h3>Red Diamond</h3>
-                                <p class="category">an illustration work</p>
-                            </div>
-                          </div>
-                          <!-- portfolio-item --> 
-                          
-                          
-                          <!-- portfolio-item -->  
-                          <div class="media-cell design hentry">
-                            <div class="media-box">
-                                <img src="images/portfolio/15.png" alt="portfolio-post">
-                                <div class="mask"></div>
-                                <a href="portfolio-item-02.html" class="ajax"></a>
-                            </div>
-                            <div class="media-cell-desc">
-                                <h3>Sky is The Limit</h3>
-                                <p class="category">an illustration work</p>
-                            </div>
-                          </div>
-                          <!-- portfolio-item --> 
-                          
-                          
-                           <!-- portfolio-item -->  
-                          <div class="media-cell logo hentry x2">
-                            <div class="media-box">
-                                <img src="images/portfolio/11.jpg" alt="portfolio-post">
-                                <div class="mask"></div>
-                                <a href="portfolio-item-03.html" class="ajax"></a>
-                            </div>
-                            <div class="media-cell-desc">
-                                <h3>Behind The Eyes</h3>
-                                <p class="category">an illustration work</p>
-                            </div>
-                          </div>
-                          <!-- portfolio-item --> 
-                          
-                          
-                          
-                        </div>
-                        <!-- PORTFOLIO -->
-                        
-                        
-                        
-                        
-                        
-                    
-                    </div>
-                    <!-- CONTENT -->
-					
-				</section>
-                <!-- PAGE : PORTFOLIO -->
-                
-                
-                
-                
-                <!-- PAGE : CONTACT -->
-				<section id="contact" class="page">
-					<div class="content">
-                        	
-                           
-
-                        <!-- row -->
-                        <div class="row">
-                            
-                            
-                            <!-- column 6/12 -->
-                            <div class="col-md-6">
-                                             
-                                <h2 class="section-title"><span><i class="icon-address-book"></i>LET'S GET IN TOUCH</span></h2>
-                                
-                                <!-- LETTER -->
-                                <div class="letter">
-                                    
-                                    <h4 class="letter-title">Johhny Alexander Doe</h4>
-                                    
-                                    <div class="stamp">
-                                      <img src="images/site/stamp-image.png" alt="stamp">
-                                    </div>
-                                  
-                                    <div class="letter-info">
-                                        <p><i class="icon-at"></i>johhny@gmail.com</p>
-                                        <p><i class="icon-phone"></i>123 456 78 99</p>
-                                        <p><i class="icon-location"></i>121 King Street, Melbourne Victoria 3000 Australia</p>
-                                    </div>
-                                    
-                                </div>    
-                                  <!-- LETTER -->
-                               
-                            
-                              
-                                  <h2 class="section-title"><span><i class="icon-paper-plane"></i>DROP ME A LINE</span></h2>
-                                        
-                                    
-                                  <!-- .contact-form -->
-                                  <div class="contact-form">
-                                    
-                                      <form id="contact-form" action="send-mail.php" method="post">
-                                        
-                                        <!-- enter mail subject here -->
-                                        <input type="hidden" name="subject" id="subject" value="You have a new message from cvCard!">
-                                        
-                                        <p>
-                                          <label for="name">NAME</label>
-                                          <input type="text" name="name" id="name" class="required">
-                                        </p>
-                                        
-                                        <p>
-                                          <label for="email">EMAIL</label>
-                                          <input type="text" name="email" id="email" class="required email">
-                                        </p>
-                                        
-                                        
-                                        <p>
-                                          <label for="message">MESSAGE</label>
-                                          <textarea name="message" id="message" class="required"></textarea>
-                                        </p>
-                                       
-                                        <p>
-                                          <input type="submit" class="submit button primary" value="SEND">
-                                        </p>
-                                        
-                                      </form>
-                                      
-                                  </div>
-                                  <!-- .contact-form -->
-                            
-                          </div>
-                          <!-- column 6/12 -->
-                          
-                          
-                          <!-- column 6/12 -->
-                          <div class="col-md-6">
-                          
-                          
-                                  <h2 class="section-title"><span><i class="icon-chat"></i>LET'S SOCIALIZE</span></h2>
-                          
-                                  <!-- SOCIAL -->
-                                  <ul class="social">
-                                    <li><a class="facebook" href="#"></a></li>
-                                    <li><a class="twitter" href="#"></a></li>
-                                    <li><a class="linkedin" href="#"></a></li>
-                                    <li><a class="google-plus" href="#"></a></li>
-                                    <li><a class="pinterest" href="#"></a></li>
-                                    <li><a class="github" href="#"></a></li>
-                                    <li><a class="behance" href="#"></a></li>
-                                    <li><a class="dribbble" href="#"></a></li>
-                                    <li><a class="instagram" href="#"></a></li>
-                                    <li><a class="lastfm" href="#"></a></li>
-                                    <li><a class="rss" href="#"></a></li>
-                                    <li><a class="vimeo" href="#"></a></li>
-                                    <li><a class="forrst" href="#"></a></li>
-                                    <li><a class="skype" href="#"></a></li>
-                                    <li><a class="picasa" href="#"></a></li>
-                                    <li><a class="youtube" href="#"></a></li>
-                                    <li><a class="flickr" href="#"></a></li>
-                                    <li><a class="tumblr" href="#"></a></li>
-                                    <li><a class="blogger" href="#"></a></li>
-                                    <li><a class="delicious" href="#"></a></li>
-                                    <li><a class="digg" href="#"></a></li>
-                                    <li><a class="friendfeed" href="#"></a></li>
-                                    <li><a class="wordpress" href="#"></a></li>
-                                    <li><a class="stack-overflow" href="#"></a></li>
-                                    <li><a class="foursquare" href="#"></a></li>
-                                    <li><a class="xing" href="#"></a></li>
-                                    <li><a class="weibo" href="#"></a></li>
-                                    <!--<li><a class="soundcloud" href="#"></a></li>
-                                    <li><a class="fivehundredpx" href="#"></a></li>
-                                    <li><a class="slideshare" href="#"></a></li>-->
-                                  </ul>
-                                  <!-- SOCIAL -->
-                                  
-                                  
-                                  <h2 class="section-title"><span><i class="icon-location"></i>LOCATION</span></h2>                                                   
-                                  <!-- GOOGLE MAP -->
-                                  <div class="map">
-                                    <div data-latitude="-25.363882" data-longitude="131.044922" data-zoom="4" id="map-canvas" class="map-canvas"></div>
-                                </div>
-                                <!-- GOOGLE MAP -->
-                                  
-                          </div>
-                          <!-- column 6/12 --><!-- column 6/12 -->
-                            
-                            
-                            
-                        </div>    				
-                        <!-- row -->      
-                                          
-                                              
-                                          
-                    </div>
-				</section>
-                <!-- PAGE : CONTACT -->
-                
-                
-                
-                
-                <!-- PAGE : BLOG -->
-				<section id="blog" class="page">
-					<div class="content">
-						
-                        
-                        
-                        
-                        <h2 class="section-title center"><span><i class="icon-book-open"></i>LATEST FROM THE BLOG</span></h2>
-						
-                        <!-- LATEST POSTS -->	
-                        <div class="latest-posts media-grid" data-layout="fitRows">
-                        
-                        	
-                            <!-- post -->
-                        	<article class="hentry media-cell">
-                            	
-                                <div class="media-box">
-                                    <img src="images/blog/blog-01.png" alt="post-image">
-                                    <div class="mask"></div>
-                                    <a href="blog-single.html"></a>
-                                </div>
-                                
-                                <header class="media-cell-desc">
-                                	<span title="2013" class="date"><span class="day">18</span>oct</span>
-                                	<h3><a href="blog-single.html">20 Best Practices For Designing Better UIs</a></h3>
-                                </header>
-                                
-                            </article>
-                            <!-- post -->
-                            
-                            
-                            <!-- post -->
-                            <article class="hentry media-cell">
-                            	
-                                <div class="media-box">
-                                    <img src="images/blog/blog-07.png" alt="post-image">
-                                    <div class="mask"></div>
-                                    <a href="blog-single.html"></a>
-                                </div>
-                                
-                                <header class="media-cell-desc">
-                                	<span title="2013" class="date"><span class="day">11</span>oct</span>
-                                	<h3><a href="blog-single.html">40 Inspirational Magazine Designs That You Should See</a></h3>
-                                </header>
-                                
-                            </article>
-                            <!-- post -->
-                            
-                            
-                            <!-- post -->
-                            <article class="hentry media-cell">
-                            	
-                                <div class="media-box">
-                                    <img src="images/blog/blog-03.png" alt="post-image">
-                                    <div class="mask"></div>
-                                    <a href="blog-single.html"></a>
-                                </div>
-                                
-                                <header class="media-cell-desc">
-                                	<span title="2013" class="date"><span class="day">27</span>sep</span>
-                                	<h3><a href="blog-single.html">Creating a New Typeface For Your Next Project</a></h3>
-                                </header>
-                                                                
-                            </article>
-                            <!-- post -->
-                            
-                            
-                            <!-- post -->
-                            <article class="hentry media-cell">
-                            
-                                <div class="media-box">
-                                    <img src="images/blog/blog-04.png" alt="post-image">
-                                    <div class="mask"></div>
-                                    <a href="blog-single.html"></a>
-                                </div>
-                                
-                                <header class="media-cell-desc">
-                                	<span title="2013" class="date"><span class="day">14</span>jun</span>
-                                	<h3><a href="blog-single.html">Sketching a Monster Made by Stone From Scratch</a></h3>
-                                </header>
-                                
-                            </article>
-                            <!-- post -->
-                            
-                            
-                            <!-- post -->
-                            <article class="hentry media-cell">
-                            	
-                                <div class="media-box">
-                                    <img src="images/blog/blog-05.png" alt="post-image">
-                                    <div class="mask"></div>
-                                    <a href="blog-single.html"></a>
-                                </div>
-                                
-                                <header class="media-cell-desc">
-                                	<span title="2013" class="date"><span class="day">05</span>jun</span>
-                                	<h3><a href="blog-single.html">Designing a Physics Based iOS Game From Scratch</a></h3>
-                                </header>
-                                
-                            </article>
-                            <!-- post -->
-                            
-                            
-                            <!-- post -->
-                            <article class="hentry media-cell">
-                                
-                                <div class="media-box">
-                                    <img src="images/blog/blog-06.png" alt="post-image">
-                                    <div class="mask"></div>
-                                    <a href="blog-single.html"></a>
-                                </div>
-                                
-                                <header class="media-cell-desc">
-                                	<span title="2013" class="date"><span class="day">03</span>may</span>
-                                	<h3><a href="blog-single.html">Get Ready And Pack Your Bag For a Real Trip</a></h3>
-                                </header>
-                                
-                            </article>
-                            <!-- post -->
-                            
-                            
-                            <!-- post -->
-                            <article class="hentry media-cell">
-                                
-                                <div class="media-box">
-                                    <img src="images/blog/blog-02.png" alt="post-image">
-                                    <div class="mask"></div>
-                                    <a href="blog-single.html"></a>
-                                </div>
-                                
-                                <header class="media-cell-desc">
-                                	<span title="2013" class="date"><span class="day">03</span>may</span>
-                                	<h3><a href="blog-single.html">Get Ready And Pack Your Bag For a Real Trip</a></h3>
-                                </header>
-                                
-                            </article>
-                            <!-- post -->
-                            
-                            
-                            <!-- post -->
-                            <article class="hentry media-cell">
-                                
-                                <div class="media-box">
-                                    <img src="images/blog/blog-08.png" alt="post-image">
-                                    <div class="mask"></div>
-                                    <a href="blog-single.html"></a>
-                                </div>
-                                
-                                <header class="media-cell-desc">
-                                	<span title="2013" class="date"><span class="day">03</span>may</span>
-                                	<h3><a href="blog-single.html">Get Ready And Pack Your Bag For a Real Trip</a></h3>
-                                </header>
-                                
-                            </article>
-                            <!-- post -->
-                            
-                        	
-                        </div>
-                        <!-- LATEST POSTS -->	       
-                             
-                                     
-                        <p class="launch"><a class="button primary" href="blog.html">SEE ALL POSTS</a></p>
-                             
-                               
-						
-					</div>
-				</section>
-                <!-- PAGE : BLOG -->
-                
-                
-                
-                
-                <!-- PAGE : RESUME -->
-				<section id="resume" class="page">
-					<div class="content">
-						<!-- CONTENT -->
-                                       
-                                        
-                     	<!-- row -->
-                        <div class="row">
-                        
-                        	
-                            <!-- col 6/12 -->
-                            <div class="col-md-6">
-                                          
-                                <!-- timeline -->
-                                <div class="timeline">
-                                
-                                    <h2><i class="fa fa-flask"></i>WORK HISTORY</h2>
-                                    
-                                    <div class="event current">
-                                        <span class="date">2012</span>
-                                        <h4>Front End Web Developer</h4>
-                                        <h5>Pixelwars Inc.</h5>
-                                        <p>I currently work for Pixelwars creative studio. I create usable web interfaces, front end coding stuff and almost anything. But i love what i do.</p>
-                                    </div>
-                                    
-                                    
-                                    <div class="event">
-                                        <span class="date">2010</span>
-                                        <h4>Web Developer</h4>
-                                        <h5>Google Inc.</h5>
-                                        <p>I worked as a Web Developer at Google for 3 years. I create usable web interfaces, front end coding stuff and almost anything. But i love what i do.</p>
-                                    </div>
-                                    
-                                    <div class="event">
-                                        <span class="date">2006</span>
-                                        <h4>Exclusive Author</h4>
-                                        <h5>Envato Inc.</h5>
-                                        <p>I am an Elite Author at Envato. I create usable web interfaces, front end coding stuff and almost anything. But i love what i do.</p>
-                                    </div>
-                               
-                               </div>
-                               <!-- timeline -->
-                               
-                               
-                               <!-- timeline -->
-                               <div class="timeline">
-                                
-                                    <h2><i class="icon-college"></i>EDUCATION HISTORY</h2>
-                                    
-                                    <div class="event">
-                                        <span class="date">2002</span>
-                                        <h4>Atom Science</h4>
-                                        <h5>Stanford University</h5>
-                                        <p>I studied atomic stuff at Stanford University. I create usable web interfaces, front end coding stuff and almost anything. But i love what i do.</p>
-                                    </div>
-                                    
-                                    
-                                    <div class="event">
-                                        <span class="date">2010</span>
-                                        <h4>Software Engineering</h4>
-                                        <h5>Harvard University</h5>
-                                        <p>I got my Master Degree at Harvard University. I create usable web interfaces, front end coding stuff and almost anything. But i love what i do.</p>
-                                    </div>
-                                    
-                                    <div class="event">
-                                        <span class="date">2006</span>
-                                        <h4>Computer Science</h4>
-                                        <h5>MIT</h5>
-                                        <p>I studied Computer Science at MIT. I create usable web interfaces, front end coding stuff and almost anything. But i love what i do.</p>
-                                    </div>
-                               
-                               </div>
-                               <!-- timeline -->
-                               
-                              
-                            </div> 
-                              <!-- col 6/12 -->
-                               
-                               
-                               
-                               <!-- col 6/12 -->
-                               <div class="col-md-6">
-                                
-                                    <h2 class="section-title"><span><i class="icon-cog-1"></i>DEVELOPMENT SKILLS</span></h2>
-                                
-                                    <!-- DEV SKILLS -->
-                                    <div class="skillset">
-                                    
-                                        <!-- .skill-unit -->
-                                        <div class="skill-unit">
-                                            <h4>HTML5</h4>
-                                            <div class="bar" data-percent="100">
-                                                <div class="progress"></div>
-                                            </div>
-                                        </div>
-                                        <!-- .skill-unit -->
-                                        
-                                        <!-- .skill-unit -->
-                                        <div class="skill-unit">
-                                            <h4>CSS3</h4>
-                                            <div class="bar" data-percent="50">
-                                                <div class="progress"></div>
-                                            </div>
-                                        </div>
-                                        <!-- .skill-unit -->
-                                        
-                                        <!-- .skill-unit -->
-                                        <div class="skill-unit">
-                                            <h4>jQuery</h4>
-                                            <div class="bar" data-percent="70">
-                                                <div class="progress"></div>
-                                            </div>
-                                        </div>
-                                        <!-- .skill-unit -->
-                                        
-                                        <!-- .skill-unit -->
-                                        <div class="skill-unit">
-                                            <h4>Wordpress</h4>
-                                            <div class="bar" data-percent="100">
-                                                <div class="progress"></div>
-                                            </div>
-                                        </div>
-                                        <!-- .skill-unit -->
-                                    
-                                    </div>
-                                    <!-- DEV SKILLS -->
-                                    
-                                    
-                                    
-                                    <h2 class="section-title"><span><i class="icon-brush"></i>DESIGN SKILLS</span></h2>
-                                    
-                                    <!-- DESIGN SKILLS -->
-                                    <div class="skillset">
-                                        
-                                        <!-- .skill-unit -->
-                                        <div class="skill-unit">
-                                            <h4>Fireworks</h4>
-                                            <div class="bar" data-percent="90">
-                                                <div class="progress"></div>
-                                            </div>
-                                        </div>
-                                        <!-- .skill-unit -->
-                                        
-                                        <!-- .skill-unit -->
-                                        <div class="skill-unit">
-                                            <h4>Photoshop</h4>
-                                            <div class="bar" data-percent="60">
-                                                <div class="progress"></div>
-                                            </div>
-                                        </div>
-                                        <!-- .skill-unit -->
-                                        
-                                        <!-- .skill-unit -->
-                                        <div class="skill-unit">
-                                            <h4>Illustrator</h4>
-                                            <div class="bar" data-percent="40">
-                                                <div class="progress"></div>
-                                            </div>
-                                        </div>
-                                        <!-- .skill-unit -->
-                                    
-                                    </div>
-                                    <!-- DESIGN SKILLS -->
-                                    
-                                    
-                                    
-                                    <h2 class="section-title"><span><i class="icon-comment"></i>TESTIMONIALS</span></h2>
-                                    
-                                    <!-- testo-group -->
-                                    <div class="testo-group">
-                                        
-                                        <!-- Testimonial -->
-                                        <div class="testo">
-                                            <img src="images/site/testo-01.jpg" alt="someone">
-                                            <h4>Phillip Austin <span>CEO / Gravity Inc.</span></h4>
-                                            <p>He is a great and hardworking guy. I am so proud of i have him as my asistant. He helped me so much. Also he is a great and hardworking guy. I am so proud of i have him as my asistant. He helped me so much.</p>
-                                           
-                                        </div>
-                                        <!-- Testimonial -->
-                                        
-                                        <!-- Testimonial -->
-                                        <div class="testo">
-                                            <img src="images/site/testo-02.jpg" alt="someone">
-                                         
-                                                <h4>Gary Morgan <span>Chemist / Freelancer</span></h4>
-                                                <p>He was a great co-worker and a friend. I would't be where i am without his support.</p>
-                                           
-                                        </div>
-                                        <!-- Testimonial -->
-                                        
-                                        <!-- Testimonial -->
-                                        <div class="testo">
-                                            <img src="images/site/testo-03.jpg" alt="someone">
-                                            
-                                                <h4>Jason Wilson <span>Lab Geek / Miami Metro</span></h4>
-                                                <p>He is ok.</p>
-                                            
-                                        </div>
-                                        <!-- Testimonial -->
-                                    
-                                    </div>
-                                    <!-- testo-group -->
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    <h2 class="section-title"><span><i class="icon-doc-alt"></i>DOWNLOAD MY CV</span></h2>
-                                    
-                                    <p>You can download my CV in pdf format if you like. I currently work for Pixelwars creative studio. I create usable web interfaces, front end coding stuff and almost anything. But i love what i do.</p>
-                                    
-                                    <!-- DOWNLOAD BUTTON -->
-                                    <div class="download-button">
-                                        <a href="#" class="button primary">DOWNLOAD CV</a>
-                                    </div>
-                                    <!-- DOWNLOAD BUTTON -->
-                                    
-                                    
-                                    <h2 class="section-title"><span><i class="icon-linkedin"></i>VIEW MY LINKEDIN PROFILE</span></h2>
-                                    
-                                    <p>You can view my LinkedIn profile. I currently work for Pixelwars creative studio. I create usable web interfaces, front end coding stuff and almost anything. But i love what i do.</p>
-                                    
-                                    <!-- DOWNLOAD BUTTON -->
-                                    <div class="download-button">
-                                        <a href="#" class="button primary">MY LINKEDIN PROFILE</a>
-                                    </div>
-                                    <!-- DOWNLOAD BUTTON -->
-                                    
-                                
-                               </div>
-                               <!-- col 6/12 -->
-                        
-                        
-                        </div>                       
-                        <!-- row -->                   
-                                            
-                                           
-                                            
-                                		
-                    </div>
-                    <!-- CONTENT -->
-					
-				</section>
-                <!-- PAGE : RESUME -->
-                
-                
-                
-           	</div>
-            <!-- WRAPPER -->
-            
-            
-		</div>
-        <!-- CONTAINER -->
-        
-        
-        
-    <!-- PORTFOLIO SINGLE AJAX CONTENT CONTAINER -->
-    <div class="p-overlay"></div>
-    <div class="p-overlay"></div>
-        
-
-    <!-- ALERT : used for contact form mail delivery alert -->
-    <div class="site-alert animated"></div>
-        
-        
-    <!-- SCRIPTS -->
-        <script src="js/jquery-1.10.2.min.js"></script>
-		<script src="js/jquery-migrate-1.2.1.min.js"></script>
-        <script src="js/jquery.address-1.5.min.js"></script>
-        <script src="js/triple.layout.js"></script>
-        <script src="js/smoothscroll.js"></script>
-        <script src="js/nprogress/nprogress.js"></script>
-        <script src="js/fastclick.js"></script>
-		<script src="js/jquery.imagesloaded.min.js"></script>
-        <script src="js/jquery.isotope.min.js"></script>
-        <script src="js/jquery.flexslider-min.js"></script>
-        <script src="js/jquery.fitvids.js"></script>
-        <script src="js/jquery.validate.min.js"></script>
-        <script src="js/jquery.uniform.min.js"></script>
-        <script src="js/jquery.fancybox-1.3.4.pack.js"></script>
-        <script src="js/jquery.tooltipster.min.js"></script>
-        <script src="js/google-code-prettify/prettify.js"></script>
-        <script src="js/twitterFetcher_v10_min.js"></script>
-        <script src="js/mediaelement/mediaelement-and-player.min.js"></script>
-        <script src="js/send-mail.js"></script>
-        <script src="js/classie.js"></script>
-        <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
-        <script src="js/main.js"></script>
-
-        
-	</body>
+</body>
 </html>
