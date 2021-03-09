@@ -146,15 +146,14 @@
                 >
                   <!-- social icons -->
 
-
                   <li>
                     <a
-                      class="ukie-icons hover-animate" target="_blank"
+                      class="ukie-icons hover-animate"
+                      target="_blank"
                       href="https://www.linkedin.com/in/amandeep-s-364bb415b/"
                       ><i class="fa fa-linkedin"></i
                     ></a>
                   </li>
-  
 
                   <!--
                                     <li><a class="ukie-icons hover-animate" href="#"><i class="fa fa-behance"></i></a></li>
@@ -245,22 +244,6 @@
               </a>
               <!-- end menu block (portfolio) -->
 
-              <!-- start menu block (blog) -->
-              <a href="blog.html" class="menu-li">
-                <!-- img menu block -->
-                <span class="foto">
-                  <img
-                    src="./assets/img/menu/blog.png"
-                    class="menu-img"
-                    data-img-name="blog"
-                    alt="Ukieweb"
-                  />
-                </span>
-                <!-- name menu block -->
-                <span class="name">Blog</span>
-              </a>
-              <!-- end menu block (portfolio) -->
-
               <!-- start menu block (contact) -->
               <a href="contact.html" class="menu-li">
                 <!-- img menu block -->
@@ -284,53 +267,57 @@
       </nav>
       <!-- End Menu section -->
 
-      <!-- Start Footer section -->
-      <footer class="footer">
-        <!-- start container -->
-        <div class="container">
-          <!-- start row -->
-          <div class="row">
-            <!-- start phone number -->
-            <div class="col-xs-12 col-sm-6 col-lg-3">
-              <a href="#" class="hover-animate">
-                <span class="ukie-icons hover-animate"
-                  ><i class="fa fa-phone"></i
-                ></span>
-                +91 7973657349
-              </a>
-            </div>
-            <!-- end phone number -->
-            <!-- start email -->
-            <div class="col-xs-12 col-sm-6 col-lg-3">
-              <a href="#" class="hover-animate">
-                <span class="ukie-icons hover-animate"
-                  ><i class="fa fa-paper-plane"></i
-                ></span>
-                amandroid022@gmail.com
-              </a>
-            </div>
-            <!-- end email -->
-            <!-- start address -->
-            <div class="col-xs-12 col-sm-6 col-lg-3">
-              <a href="#" class="hover-animate">
-                <span class="ukie-icons hover-animate"
-                  ><i class="fa fa-map-marker"></i
-                ></span>
-                India
-              </a>
-            </div>
-            <!-- end address -->
-            <!-- start Copyright -->
-            <div class="col-xs-12 col-sm-6 col-lg-3 text-right">
-              <span class="copyright">Copyright © 2021 All right reserved</span>
-            </div>
-            <!-- end Copyright -->
-          </div>
-          <!-- end row -->
-        </div>
-        <!-- end container -->
-      </footer>
-      <!-- End Footer section -->
+<!-- Start Footer section -->
+<footer class="footer">
+  <!-- start container -->
+  <div class="container">
+    <!-- start row -->
+    <div class="row">
+      <!-- start phone number -->
+      <div class="col-xs-12 col-sm-6 col-lg-3">
+        <a href="tel:7973657349" class="hover-animate">
+          <span class="ukie-icons hover-animate"
+            ><i class="fa fa-phone"></i
+          ></span>
+          +91 7973657349
+        </a>
+      </div>
+      <!-- end phone number -->
+      <!-- start email -->
+      <div class="col-xs-12 col-sm-6 col-lg-3">
+        <a target="_blank" href="mailto:amandroid022@gmail.com" class="hover-animate">
+          <span class="ukie-icons hover-animate"
+            ><i class="fa fa-paper-plane"></i
+          ></span>
+          amandroid022@gmail.com
+        </a>
+      </div>
+      <!-- end email -->
+      <!-- start address -->
+      <div class="col-xs-12 col-sm-6 col-lg-3">
+        <a
+          target="_blank"
+          href="https://www.google.com/maps/place/Bengaluru,+Karnataka/@12.9542946,77.4908551,11z/data=!3m1!4b1!4m5!3m4!1s0x3bae1670c9b44e6d:0xf8dfc3e8517e4fe0!8m2!3d12.9714383!4d77.5947189"
+          class="hover-animate"
+        >
+          <span class="ukie-icons hover-animate"
+            ><i class="fa fa-map-marker"></i
+          ></span>
+          Bangalore, Karnataka, India
+        </a>
+      </div>
+      <!-- end address -->
+      <!-- start Copyright -->
+      <div class="col-xs-12 col-sm-6 col-lg-3 text-right">
+        <span class="copyright">Copyright © 2021 All right reserved</span>
+      </div>
+      <!-- end Copyright -->
+    </div>
+    <!-- end row -->
+  </div>
+  <!-- end container -->
+</footer>
+<!-- End Footer section -->
     </div>
 
     <!-- Scroll to Top -->
@@ -425,77 +412,7 @@
     </div>
     <!-- end Style Switcher -->
 
-    <!-- Style Contact Form -->
-    <!-- delete this from site once you have decided on a colour scheme - follow documentation for insructions -->
-    <!-- Button Style open -->
-    <div class="style-open-form animated hi-icon-effect-8">
-      <i
-        class="hi-icon fa fa-envelope-o ukie-icons hover-animate hi-icon-mobile"
-      ></i>
-    </div>
-    <!-- End Button Style open -->
-    <div class="style-contact-form style-off-form">
-      <div class="row">
-        <div class="col-xs-12 col-sm-12 col-lg-12">
-          <!-- Start Contact Form -->
-          <div class="contact-form">
-            <div class="btn-close-form"></div>
-            <h3 class="title title-contact">Contact Me</h3>
-            <p>
-              Use this form to tell me about your project goals and needs. I
-              will be in touch within 24 hours.
-            </p>
-            <form
-              action="assets/php/contact.php"
-              id="contact-form-panel"
-              method="post"
-            >
-              <input
-                type="text"
-                id="user-name-panel"
-                name="user-name"
-                value=""
-                placeholder="Name"
-              />
-              <input
-                type="email"
-                id="user-email-panel"
-                name="user-email"
-                value=""
-                placeholder="Email"
-              />
-              <input
-                type="hidden"
-                id="user-status-panel"
-                name="user-status"
-                value="1"
-              />
-              <textarea
-                id="user-message-panel"
-                name="user-message"
-                placeholder="Message"
-              ></textarea>
-              <div class="footer-form">
-                <input
-                  type="submit"
-                  id="submit-btn-panel"
-                  class="btn btn-color hover-animate"
-                  value="Send Message"
-                />
-                <div class="info-message-form">
-                  <p>Please fill out all the fields!</p>
-                  <span class="close-msg"><i class="fa fa-close"></i></span>
-                </div>
-              </div>
-            </form>
-          </div>
-          <!-- End Contact Form -->
-          <!-- End style-open -->
-        </div>
-      </div>
-      <!-- End row -->
-    </div>
-    <!-- End Style Contact Form -->
+
 
     <!-- Scripts -->
     <script
